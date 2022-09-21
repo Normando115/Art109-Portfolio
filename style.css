@@ -68,7 +68,8 @@ a:hover{
     margin-right: auto;
   }
 
-  html {   margin-left: 10%;
+  html {
+    margin-left: 10%;
     margin-right: 10%;
     background: #4B96D1;
     background-image: url("assets/background.jpg");
