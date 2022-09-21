@@ -1,12 +1,3 @@
-
-html {   margin-left: 10%;
-  margin-right: 10%;
-  background: #4B96D1;
-  background-image: url("assets/background.jpg");
-  background-repeat: round;
-  width: auto;
-}
-
 body{
   background-color: #4B96D1;
     text-align:center;
@@ -67,8 +58,6 @@ a:hover{
   color: #EA737C;
   }
 
-
-
   .gallery img {
     height: 200px;
     padding: 5px;
@@ -77,4 +66,12 @@ a:hover{
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  html {   margin-left: 10%;
+    margin-right: 10%;
+    background: #4B96D1;
+    background-image: url("assets/background.jpg");
+    background-repeat: round;
+    width: auto;
   }
