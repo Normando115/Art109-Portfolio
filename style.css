@@ -1,78 +1,131 @@
-body{
+/*start */
+body {
   background-color: #4B96D1;
-    text-align:center;
+}
 
-    font-family: pacifico, Arial, Helvetica, sans-serif;
-    font-size: 20pt;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-transform: none;
+}
+#sec-1 {
+    font-family: annie use your telescope, sans-serif;
+    font-family: pacifica, annie use your telescope;
+      background-color: #4B96D1;
+        text-align: center;
+          color: orange;
+
 
 }
-h1{
+#sec-2 {
+  font-size: 40pt;
+  font-family: annie use your telescope, sans-serif;
+  font-family: pacifica, annie use your telescope;
+    background-color: #4B96D1;
+      text-align: center;
+}
+/*Nav bar */
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+.navigation {
+  float: right;
+  height: 100%;
+}
+.navigation li {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation li a {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: orange;
+  text-decoration: none;
+
+  font-size: 40px;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: #2d6896;
+  margin: 0 auto;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  z-index: 2;
+}
+.inner_header{
+  width: 1800px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+text{
+/* name in nav bar*/
+    text-align: center;
+  font-size: 50pt;
+ }
+
+
+h1 {
   text-align: center;
-  width:700px;
-  padding:0px;
-  margin-top:auto;
-  margin-left:auto;
-  margin-right:auto;
+  width: 700px;
+  padding: 0px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 24pt;
-    color: #EFF434;
-    font-family: annie use your telescope, sans-serif;
-      font-family: pacifica,annie use your telescope;
+  color: #EFF434;
+
 }
 
-h2{
-  text-align: center;
-  width:700px;
-  padding:0px;
-  margin-top:auto;
-  margin-left:auto;
-  margin-right:auto;
-  font-size: 16pt;
-    color: #DC136C;
-    font-family: annie use your telescope, sans-serif;
-      font-family: pacifica,annie use your telescope;
-}
-em{
-  text-align: center;
-  padding:0px;
-  margin-top:auto;
-  margin-left:auto;
-  margin-right:auto;
-    font-size: 32pt;
-}
-img{
-
-    box-shadow: 5px 5px 5px rgba(0,0,0,.3);
-}
-a{
-    font-family 12pt;
-    color:#9f2df7;
-}
-
-a:hover{
-    color:#84B082;
+img {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
 }
 
 .name {
-	font-size:100px;
-	font-family: annie use your telescope, sans-serif;
+  font-size: 100px;
+
   color: #EA737C;
-  }
+}
 
-  .gallery img {
-    height: 200px;
-    padding: 5px;
-    transition: 1s;
-    object-fit: cover;
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.gallery img {
+  height: 400px;
+  padding: 5px;
+  transition: 1s;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  html {
-    margin-left: 10%;
-    margin-right: 10%;
-    background: #4B96D1;
-    background-image: url("assets/background.jpg");
-    background-repeat: round;
-    width: auto;
-  }
+.aboutme {
+  float: left;
+  width: 40%;
+  letter-spacing: 1.25px;
+  font-size: 45px;
+    color: #EFF434;
+  padding: 60px;
+  text-align: center;
+
+}
+.photo img {
+  /* padding: 70px; */
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%
+}
